@@ -166,5 +166,5 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
-command is ls -a Desktop ,flag is -a ,ls desktop, .			.DS_Store		Sound Effects Server
+command is ls -a Desktop ,flag is -a , argument is desktop, .	Prompt:.			.DS_Store		Sound Effects Server
 ..			.localized		Student Temporary Work
