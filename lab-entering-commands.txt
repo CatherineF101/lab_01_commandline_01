@@ -1,170 +1,165 @@
-Lab - Entering Commands
 ==========
-Follow the instructions line-by-line.  
+		1. Open Terminal.  Type:
+		
+		$ ls<ENTER>
+		
+		Copy and paste the output of ls below.
+		----------
+		
+		Applications	Downloads	Music		ReadMe.pdf
+		Desktop		Library		Pictures	mtec1003
+		Documents	Movies		Public
+		
+		
+		==========
+		2a. Type: 
+		
+		$ ls D<TAB>
+		
+		What happens?  Describe it below.
+		----------
+		
+		Nothing happens
+		
+		==========
+		2b. Press <TAB> one more time.  Copy and paste the output below.
+		----------
+		
+		Desktop/   Documents/ Downloads/ 
+		
+		==========
+		2c. Now press <ENTER>. Copy and paste the output below.
+		----------
+		
+		
+		  ls: D: No such file or directory
+		
+		==========
+		3.  Type:
+		
+		$ ls -l Documents<ENTER>
+		
+		Copy and paste the first *two lines* of output below.
+		----------
+		
+		drwx------    4 catherinecloud  staff    136 Oct 26  2015 Applications
+		drwx------+  42 catherinecloud  staff   1428 Jun 27 16:26 Desktop
+		
+		==========
+		4.  Type:
+		
+		$ ls -a Documents
+		
+		Copy and paste the first *two lines* of output below.
+		----------
+		
+		.			.cups			Music
+		..			Applications		Pictures
+		
+		==========
+		5.  Type:
+		
+		<UP><ENTER>
+		
+		What command was repeated?
+		----------
+		
+		the ls -a command
+		
+		==========
+		6.  Type:
+		
+		<UP><UP><UP><DOWN><ENTER>
+		
+		What command was repeated?
+		----------
+		
+		the ls -l command
+		
+		==========
+		7.  Type:
+		
+		$ ls /Vol<TAB><ENTER>
+		
+		What is the result of pressing tab?
+		----------
+		
+		It switched from vol and changed it to the completed word 			     Volumes.
+		Catherines-MacBook-Pro:~ catherinecloud$ ls /Volumes/
+		Macintosh HD
+		
+		==========
+		8.  Type:
+		
+		$ ls doesnotexist
+		
+		Copy and paste the output below.
+		----------
+		
+		ls: doesnotexist: No such file or directory
+		
+		==========
+		9.  What key do I press to go to the previous command?
+		----------
+		
+		The up arrow key
+		
+		==========
+		10.  Name two flags that we used in this exercise.
+		----------
+		
+		-a and -l
+		
+		==========
+		11.  What key do I use to attempt to autocomplete a command or a file name?
+		----------
+		
+		Tab
+		
+		==========
+		12.  What was the main command that we used throughout this   	exercise?
+		----------
+		
+		ls
+		
+		==========
+		13.  Name one argument that we passed to the command.
+		----------
+		
+		ls -a Desktop
+		
+		==========
+		14.  Type:
+		
+		$ foo<ENTER>
+		
+		Copy and paste the output below.
+		----------
+		
+		-bash: foo: command not found
+		
+		==========
+		15.  Type:
+		
+		<UP><ENTER>
+		
+		Copy and paste the output below.
+		----------
+		
+		-bash: foo: command not found
+		
+		==========
+		16.  In the following line....
+		
+		$ ls -a Desktop
+		
+		What is the command, flag, argument, and prompt?
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
-* "No output" or "nothing happens" are valid answers to any of the questions.
-==========
+		Command is ls -a desktop, flag is -a, argument is desktop, 				Prompt: . ..
+		  .DS_Store
+          .localized
+          158757681.jpg
+          29w73mq.jpg
 
-
-
-==========
-1. Open Terminal.  Type:
-
-$ ls<ENTER>
-
-Copy and paste the output of ls below.
-----------
-
-ent-v314-005:~ student
-
-==========
-2a. Type: 
-
-$ ls D<TAB>
-
-What happens?  Describe it below.
-----------
-
-
-Nothing happens
-==========
-2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
-
-
-Desktop/   Documents/ Downloads/ 
-ent-v314-005:~ student$ ld D
-
-==========
-2c. Now press <ENTER>. Copy and paste the output below.
-----------
-
-ls: D: No such file or directory
-ent-v314-005:~ student$ 
-
-
-==========
-3.  Type:
-
-$ ls -l Documents<ENTER>
-
-Copy and paste the first *two lines* of output below.
-----------
-
-Ableton
-Adobe
-
-==========
-4.  Type:
-
-$ ls -a Documents
-
-Copy and paste the first *two lines* of output below.
-----------
-
-.			Avid Projects		REAPER Media
-..			Dana_MTEC2120.maxpat	Smaart v8
-
-==========
-5.  Type:
-
-<UP><ENTER>
-
-What command was repeated?
-----------
-the ls -a command
-                              
-==========
-6.  Type:
-
-<UP><UP><UP><DOWN><ENTER>
-
-What command was repeated?
-----------           
-The ls -1 command
-
-
-==========
-7.  Type:
-
-$ ls /Vol<TAB><ENTER>
-
-What is the result of pressing tab?
-----------
-
-
-ent-v314-005:~ student$ ls /Volumes/
-Macintosh HD
-==========
-8.  Type:
-
-$ ls doesnotexist
-
-Copy and paste the output below.
-----------
-
-ent-v314-005:~ student$ 
-
-==========
-9.  What key do I press to go to the previous command?
-----------
-
-up arrow key               
-
-==========
-10.  Name two flags that we used in this exercise.
-----------
--a and -1
-
-
-==========
-11.  What key do I use to attempt to autocomplete a command or a file name?
-----------
-
-
-Tab
-==========
-12.  What was the main command that we used throughout this exercise?
-----------
-
-
-ls
-==========
-13.  Name one argument that we passed to the command.
-----------
-ls desktop
-
-
-==========
-14.  Type:
-
-$ foo<ENTER>
-
-Copy and paste the output below.
-----------
-
--bash: foo: command not found
-ent-v314-005:~ student$ 
-
-==========
-15.  Type:
-
-<UP><ENTER>
-
-Copy and paste the output below.
-----------
--bash: foo: command not found
-ent-v314-005:~ student$ 
-
-
-==========
-16.  In the following line....
-
-$ ls -a Desktop
-
-What is the command, flag, argument, and prompt?
-----------
-command is ls -a Desktop ,flag is -a , argument is desktop, .	Prompt:.			.DS_Store		Sound Effects Server
-..			.localized		Student Temporary Work
+		----------
+		
